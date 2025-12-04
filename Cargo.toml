@@ -1,0 +1,14 @@
+[package]
+name = "event-ports-sys"
+version = "0.1.0"
+edition = "2024"
+license = "MPL-2.0"
+
+[dependencies]
+libc = "0.2"
+camino = "1.1"
+bitflags = "2.6"
+thiserror = "2.0"
+
+[build-dependencies]
+bindgen = "0.71"
